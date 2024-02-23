@@ -6,4 +6,7 @@ module.exports = {
       isolatedModules: true,
     }],
   },
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/src/$1",
+  }
 };
